@@ -17,11 +17,9 @@
 | **구분** | **기술 스택 / 활용 도구** |
 | --- | --- |
 | **Language** | Python 3.x |
-| **Data & Backtesting** | Pandas, Pandas_ta, NumPy, yfinance,
-scikit-learn, Matplotlib |
+| **Data & Backtesting** | Pandas, Pandas_ta, NumPy, yfinance, scikit-learn, Matplotlib |
 | **AI & LLM** | Google Gemini API |
-| **Deployment & Infra** | Oracle Cloud Infrastructure, Windows PowerShell,
-Google Colab, GitHub |
+| **Deployment & Infra** | Oracle Cloud Infrastructure, Windows PowerShell, Google Colab, GitHub |
 | **External API** | Alpaca API, Toss API, Finnhub API |
 ---
 ## 3. 시스템 아키텍처 및 프로세스
