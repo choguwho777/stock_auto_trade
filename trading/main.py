@@ -21,13 +21,13 @@ from alpaca.trading.enums import OrderSide, TimeInForce, QueryOrderStatus
 
 # 기본 설정 ====================================================================
 
-env_path = "/home/ubuntu/stock_auto_trade/.env"
-load_dotenv(dotenv_path = env_path)
+# Aplaca API
 Alpaca_API_key = os.environ.get("Alpaca_API_key")
 Alpaca_secret_key = os.environ.get("Alpaca_secret_key")
 paper = True # 모의투자: True
 data_client = StockHistoricalDataClient(Alpaca_API_key, Alpaca_secret_key) # 데이터 클라이언트
 trading_client = TradingClient(Alpaca_API_key, Alpaca_secret_key, paper = paper) # 트레이딩 클라이언트
+
 # Toss API
 Toss_client_ID = os.environ.get("Toss_client_ID")
 Toss_client_secret = os.environ.get("Toss_client_secret")
