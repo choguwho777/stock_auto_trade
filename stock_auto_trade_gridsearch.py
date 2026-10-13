@@ -1,4 +1,4 @@
-# !pip install pandas_ta alpaca-py tqdm matplotlib
+import os
 
 import math
 import pandas as pd
@@ -19,8 +19,6 @@ from datetime import datetime, timedelta
 
 from sklearn.model_selection import train_test_split
 
-from google.colab import userdata
-
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
@@ -30,8 +28,8 @@ from alpaca.trading.requests import GetCalendarRequest
 
 # 기본 설정 ====================================================================
 
-Alpaca_API_key = userdata.get("Alpaca_API_key")
-Alpaca_secret_key = userdata.get("Alpaca_secret_key")
+Alpaca_API_key = os.environ.get('Alpaca_API_key')
+Alpaca_secret_key = os.environ.get('Alpaca_secret_key')
 Alpaca_paper = True
 data_client = StockHistoricalDataClient(Alpaca_API_key, Alpaca_secret_key)
 trading_client = TradingClient(Alpaca_API_key, Alpaca_secret_key, paper = Alpaca_paper)
