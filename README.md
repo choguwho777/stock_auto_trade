@@ -1,9 +1,6 @@
-# 정형/비정형 데이터 파이프라인 구축 및 백테스팅 기반 파라미터 최적화 프로젝트
-
+# Python, LLM 기반 주식 데이터 분석 및 자동매매 시스템
 ---
-
 ## 1. 프로필
-
 - **작성자:** 박성혁 / 신소재공학과 재학
 - **링크:** GitHub
 https://github.com/choguwho777/daily_stock_analysis
