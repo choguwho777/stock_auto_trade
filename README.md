@@ -1,12 +1,10 @@
 # Python, LLM 기반 주식 데이터 분석 및 자동매매 시스템
----
+
 ## 1. 프로필
 - **작성자:** 박성혁 / 신소재공학과 재학
 - **링크:** GitHub
-https://github.com/choguwho777/daily_stock_analysis
-https://github.com/choguwho777/stock_auto_trade
-
----
+[https://github.com/choguwho777/daily_stock_analysis]
+[https://github.com/choguwho777/stock_auto_trade]
 
 ## 2. 프로젝트 개요
 
