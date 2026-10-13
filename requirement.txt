@@ -1,0 +1,7 @@
+pandas
+pandas_ta
+numpy
+matplotlib
+tqdm
+scikit-learn
+alpaca-py
