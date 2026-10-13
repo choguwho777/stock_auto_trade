@@ -3,8 +3,8 @@
 ## 1. 프로필
 - **작성자:** 박성혁 / 신소재공학과 재학
 - **링크:** GitHub
-[https://github.com/choguwho777/daily_stock_analysis]
-[https://github.com/choguwho777/stock_auto_trade]
+- ① LLM 주식 분석: https://github.com/choguwho777/daily_stock_analysis
+- ② 백테스트 및 자동매매: https://github.com/choguwho777/stock_auto_trade
 
 ## 2. 프로젝트 개요
 
